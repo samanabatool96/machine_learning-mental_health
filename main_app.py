@@ -1,5 +1,4 @@
 from hashlib import algorithms_guaranteed
-from seaborn.palettes import color_palette
 from All_files import *
 from All_files import MultiApp
 from apps import analysis_app,extract_app,user_app

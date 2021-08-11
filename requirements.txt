@@ -1,4 +1,4 @@
-absl-py @ file:///C:/ci/absl-py_1615411229697/work
+
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 altair==4.1.0
 anaconda-client==1.7.2

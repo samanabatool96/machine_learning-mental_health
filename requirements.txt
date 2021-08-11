@@ -6,7 +6,6 @@ gensim==4.0.1
 gitdb==4.0.7
 GitPython==3.1.17
 google-auth==1.30.0
-oblib_1613502643832/work
 opencv-python-headless
 json5==0.9.5
 Keras==2.4.3

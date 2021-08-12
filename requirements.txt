@@ -33,7 +33,7 @@ scikit-image==0.18.1
 scikit-learn==0.24.1
 scipy==1.6.2
 seaborn==0.11.1
-snscrape==0.3.5.dev104+g97c8cae
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git@97c8caea48b1d79f776f8a2aabcadab34d633b5c
 sortedcollections==2.1.0
 sortedcontainers==2.3.0
 soupsieve==2.2.1

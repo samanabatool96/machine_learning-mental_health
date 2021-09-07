@@ -1,5 +1,6 @@
 
 beautifulsoup4==4.9.3
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git@97c8caea48b1d79f776f8a2aabcadab34d633b5c
 cloudpickle==1.6.0
 empath==0.89
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl

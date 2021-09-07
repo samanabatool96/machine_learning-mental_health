@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import pandas as pd
 import re
 import os
-brew link python@3.7 worked
+brew link python@3.7
 import io
 import numpy as np
 import spacy

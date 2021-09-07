@@ -49,5 +49,4 @@ testpath==0.4.4
 textblob==0.15.3
 textblob-de==0.4.3
 vaderSentiment==3.3.2
-wasabi==0.8.2
 wordcloud==1.8.1

@@ -2,7 +2,6 @@ from __future__ import unicode_literals
 import pandas as pd
 import re
 import os
-brew link python@3.7
 import io
 import numpy as np
 import spacy
@@ -56,12 +55,12 @@ import streamlit.components.v1 as components
 
 import hashlib
 from streamlit_disqus import st_disqus
-import keras
+from tensorflow import keras 
 from keras.models import load_model
 import ftfy
 from keras.models import Sequential
 from keras import layers
-from keras.optimizers import RMSprop
+
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras import regularizers

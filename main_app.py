@@ -15,7 +15,7 @@ col2.image('images/0001.jpg')
 with side_bar:
     st.sidebar.image("images/circle-cropped.png", width=250)
 
-menu = ["Home","How it Works","Learn","Main Analysis"]
+menu = ["Home","How it Works","Learn More","Main Analysis"]
 choice = st.sidebar.selectbox("Menu", menu)
 
 if choice == "Home":

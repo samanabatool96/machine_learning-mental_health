@@ -10,12 +10,7 @@ side_bar=st.container()
 col2 = st.container()
 
 col2.image('images/0001.jpg')
-st.write("DB username:", st.secrets["db_username"])
-st.write("DB password:", st.secrets["db_password"])
-st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
 
-st.write("Has environment variables been set:",
-os.environ["db_username"] == st.secrets["db_username"]
   
 with side_bar:
     st.sidebar.image("images/circle-cropped.png", width=250)

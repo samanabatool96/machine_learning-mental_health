@@ -6,11 +6,19 @@ from apps import analysis_app,extract_app,user_app
 app=MultiApp()
 with open("styles/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
-side_bar=st.beta_container()
-col2 = st.beta_container()
+side_bar=st.container()
+col2 = st.container()
 
 col2.image('images/0001.jpg')
-   
+st.write("DB username:", st.secrets["db_username"])
+st.write("DB password:", st.secrets["db_password"])
+st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
+
+# And the root-level secrets are also accessible as environment variables:
+
+import os
+st.write("Has environment variables been set:",
+os.environ["db_username"] == st.secrets["db_username"]
   
 with side_bar:
     st.sidebar.image("images/circle-cropped.png", width=250)

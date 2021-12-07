@@ -4,8 +4,8 @@ from All_files import MultiApp
 from apps import analysis_app,extract_app,user_app
 
 app=MultiApp()
-with open("styles/style.css") as f:
-    st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
+#with open("styles/style.css") as f:
+   # st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
 side_bar=st.container()
 col2 = st.container()
 

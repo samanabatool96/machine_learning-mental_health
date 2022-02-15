@@ -7,9 +7,8 @@ app=MultiApp()
 #with open("styles/style.css") as f:
    #st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
 side_bar=st.container()
-with main_page:
-   col2 = st.container()
-   col2.image('images/0001.jpg')
+col2 = st.container()
+col2.image('images/0001.jpg')
 
   
 with side_bar:
